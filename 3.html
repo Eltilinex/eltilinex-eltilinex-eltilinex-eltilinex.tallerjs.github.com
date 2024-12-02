@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>documento 3</title>
+    <link rel="stylesheet" href="assets/css/3.css">
+</head>
+<body>
+    <div class="menu">
+
+        <li><ul>
+          <a href="index.html">volver al inicio</a>
+        </ul></li>
+      </div>
+    <div class="contenedor">
+        <p>
+            . Ingresar por formulario el nombre, la edad y el sexo de cualquier persona, la app deberá imprimir
+la información solo si la persona es de sexo masculino y mayor de edad
+NOTA: suponga que en el campo denominado sexo el numero 1 equivale a masculino y
+el numero 2 equivale a femenino.
+
+        </p>
+
+        <label for="nombre">ingresa tu nombre</label>
+        <br>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="edad">ingresa tu edad</label>
+        <br>
+        <input type="number" name="edad" id="edad">
+        <br><br>
+        <h> 1 = masculino - 2 = femenino </h>
+        <br>
+        <label for="sexo">ingresa tu sexo </label>
+        <br>
+           <input type="number" name="sexo" id="sexo">
+        <br>
+        <br>
+        <button type="button" onclick="enviar()">enviar</button>
+        <br>
+        <div id="resultado">
+          <p id="mensaje"></p>
+      </div>
+    </div>
+    
+       
+    
+
+    <script src="assets/js/ejemplo3.js"></script>
+</body>
+</html>
